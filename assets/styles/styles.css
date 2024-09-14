@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Athanasius";
+  src: url("/assets/fonts/Athanasius.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.coptic {
+  font-family: "Athanasius";
+  direction: ltr;
+}
