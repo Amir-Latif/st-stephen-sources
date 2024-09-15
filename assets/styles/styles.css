@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Athanasius";
-  src: url("assets/fonts/Athanasius.ttf") format("truetype");
+  src: url("../fonts/Athanasius.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
