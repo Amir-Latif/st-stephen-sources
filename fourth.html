@@ -15,28 +15,27 @@
   </head>
   <body class="bg-gray-100 font-sans min-h-screen flex flex-col">
     <header
-      class="bg-blue-500 p-6 shadow-md text-white flex items-center justify-between"
+      class="bg-blue-500 p-6 shadow-md text-white flex flex-col md:flex-row-reverse items-center md:justify-between"
     >
-      <div class="text-right">
-        <h2 class="text-2xl">
-          كنيسة العظيم الشهيد مارجرجس بهليوبوليس<br />أسرة الشهيد استفانوس
-          للشمامسة
+      <div class="flex-1 md:text-left text-center">
+        <h2 class="text-xl md:text-2xl font-bold coptic">
+          :ekklhcia ~Nte Pini]; ~M= Gewrgioc "en |hliopolic<br />
+          Pirem`nhi ~Nte ~M= Ctevanoc ~Nte Nidiakwn
         </h2>
       </div>
 
-      <a href="#" class="mx-auto">
+      <a href="/" class="flex-1 flex justify-center my-4 md:mb-0">
         <img
           src="assets/images/logo.jpg"
           alt="Logo"
-          class="w-40 h-40 rounded"
+          class="w-24 h-24 md:w-40 md:h-40 rounded"
         />
       </a>
-
-      <div class="text-left">
-        <h1 class="text-2xl font-bold coptic">
-          :ekklhcia ~Nte Pini]; ~M= Gewrgioc "en |hliopolic<br />
-          Pirem`nhi ~Nte ~M= Ctevanoc ~Nte Nidiakwn
-        </h1>
+      <div class="flex-1 md:text-right text-center mb-4 md:mb-0">
+        <h2 class="text-xl md:text-2xl">
+          كنيسة العظيم الشهيد مارجرجس بهليوبوليس<br />أسرة الشهيد استفانوس
+          للشمامسة
+        </h2>
       </div>
     </header>
 
@@ -114,7 +113,7 @@
         </li>
       </ul>
 
-      <h3 class="text-xl font-medium my-4">القداس الباسيلي</h3>
+      <h3 class="text-xl font-medium my-4">رفع الحمل</h3>
       <ul class="list-disc ps-5 space-y-4">
         <li class="text-lg text-blue-600 hover:text-blue-800 transition">
           <a
@@ -123,7 +122,10 @@
             >مرد الشماس لدورة الحمل</a
           >
         </li>
+      </ul>
 
+      <h3 class="text-xl font-medium my-4">القداس الباسيلي</h3>
+      <ul class="list-disc ps-5 space-y-4">
         <li class="text-lg text-blue-600 hover:text-blue-800 transition">
           <a
             href="https://media.tasbeha.org/mp3/Hymns/Annual/Congregation_Responses/Cantor_Ibrahim_Ayad/3_-_Liturgy_of_the_Believers/03.Reconciliation-Kerie_Leison-St.Basil.mp3"
@@ -263,16 +265,6 @@
             </li>
           </ul>
         </li>
-
-        <li class="text-lg text-blue-600 hover:text-blue-800 transition">
-          <a
-            href="https://soundcloud.com/user-252365534/07-3?in=user-252365534/sets/fourth-primary-hymns"
-            target="_blank"
-            class="coptic"
-            >Je nai nan</a
-          >
-        </li>
-
         <li class="text-lg text-blue-600 hover:text-blue-800 transition">
           <a
             href="https://media.tasbeha.org/mp3/Hymns/Annual/Congregation_Responses/Cantor_Ibrahim_Ayad/3_-_Liturgy_of_the_Believers/36.Ere_Pou-esmo.mp3"
@@ -324,6 +316,18 @@
               >
             </li>
           </ul>
+        </li>
+      </ul>
+
+      <h3 class="text-xl font-medium my-4">القداس الغريغوري</h3>
+      <ul class="list-disc ps-5 space-y-4">
+        <li class="text-lg text-blue-600 hover:text-blue-800 transition">
+          <a
+            href="https://soundcloud.com/user-252365534/07-3?in=user-252365534/sets/fourth-primary-hymns"
+            target="_blank"
+            class="coptic"
+            >Je nai nan</a
+          >
         </li>
       </ul>
 
@@ -513,7 +517,7 @@
       </ul>
     </main>
 
-    <footer class="bg-gray-200 text-center p-4 text-gray-700 mt-auto">
+    <footer class="bg-gray-200 text-center p-4 text-gray-700 mt-auto" dir="ltr">
       © 2024 Developed by Amir Latif - St. George Helipolis
     </footer>
   </body>
